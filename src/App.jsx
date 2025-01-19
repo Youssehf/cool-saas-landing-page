@@ -2,9 +2,12 @@ import React from 'react'
 
 const App = () => {
   return (
-    <h1 className='text-3xl font-bold underline'>Hello World! noice</h1>
-
-  )
+    <main className="overflow-hidden">{/* overflow-hidden is used to hide the scrollbar or any scrollingbugs*/}
+    </main>
+  );
 }
+
+
+
 
 export default App
